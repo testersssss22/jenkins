@@ -1,0 +1,5 @@
+Continuous Integration
+Jenkins takes new commits and builds the code
+Part of the ci process is also to test.
+
+

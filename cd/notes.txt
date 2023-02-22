@@ -1,0 +1,10 @@
+Continous Delivery
+
+After the test passes we deploy the code for the application.
+
+the entire process can be automated:
+for example
+
+ci         |                  cd
+build test | build-docker push k8s deploy
+

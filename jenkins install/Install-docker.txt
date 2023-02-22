@@ -1,0 +1,9 @@
+Didn't work because of volume path
+docker run -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home jenkins/jenkins:lts
+
+*worked*
+docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+
+key.txt for key and path to key
+
+jenkins at http://localhost:8080

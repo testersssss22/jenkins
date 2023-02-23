@@ -1,0 +1,25 @@
+docker container ls to get container id
+
+docker exec -it -u root <id> /bin/bash
+
+*inside container*
+
+apt-get update
+
+apt-get install maven
+
+may need to also install jdk
+apt install default-jdk
+
+check maven version
+mvn-v
+
+apt-get install maven 3.8.4
+
+if need to delete maven
+apt-get remove maven
+
+maybe also need the following to get rid of everything
+apt auto-remove
+
+exit
